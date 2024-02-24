@@ -1,5 +1,6 @@
-import Logo from "../assets/logo.png"
+
 export default function Home() {
+  // logo color
   return (
     <section className="relative pb-20 overflow-hidden">
       <img
@@ -23,7 +24,7 @@ export default function Home() {
             <a className="inline-block text-lg font-bold" href="#">
               <img
                 className="h-10"
-                src={Logo}
+                src='../../static/logo.png'
                 alt=""
                 width="auto"
               />
@@ -64,7 +65,7 @@ export default function Home() {
             <ul className="hidden lg:flex ml-14 lg:w-auto lg:space-x-12">
               <li className="group relative">
                 <a
-                  className="inline-block text-sm text-gray-900 hover:text-orange-900 font-medium"
+                  className="inline-block text-sm text-gray-900 hover:text-[#5273FF] font-medium"
                   href="#"
                 >
                   Featured
@@ -120,13 +121,13 @@ export default function Home() {
                     </div>
                     <div className="flex items-center pb-3 mb-3 border-b border-gray-100">
                       <a
-                        className="inline-block px-4 py-3 mr-6 text-sm font-semibold text-orange-900 hover:text-gray-900"
+                        className="inline-block px-4 py-3 mr-6 text-sm font-semibold text-[#5273FF] hover:text-[#264ADC]"
                         href="#"
                       >
                         Sign In
                       </a>
                       <a
-                        className="inline-block py-3 px-4 text-sm font-semibold text-orange-900 hover:text-white border border-gray-200 hover:border-orange-600 hover:bg-orange-900 rounded-md transition duration-200"
+                        className="inline-block py-3 px-4 text-sm font-semibold text-[#5273FF] hover:text-white border border-gray-200 hover:border-orange-600 hover:bg-[#264ADC] rounded-md transition duration-200"
                         href="#"
                       >
                         Create an account
@@ -144,7 +145,7 @@ export default function Home() {
                           Drop us a line
                         </span>
                         <a
-                          className="text-sm font-semibold text-black hover:text-orange-900"
+                          className="text-sm font-semibold text-black hover:text-[#5273FF]"
                           href="#"
                         >
                           hello@onveta.dev
@@ -156,7 +157,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className="inline-block text-sm text-gray-900 hover:text-orange-900 font-medium"
+                  className="inline-block text-sm text-gray-900 hover:text-[#5273FF] font-medium"
                   href="#"
                 >
                   Solutions
@@ -164,7 +165,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className="inline-block text-sm text-gray-900 hover:text-orange-900 font-medium"
+                  className="inline-block text-sm text-gray-900 hover:text-[#5273FF] font-medium"
                   href="#"
                 >
                   Products
@@ -172,7 +173,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className="inline-block text-sm text-gray-900 hover:text-orange-900 font-medium"
+                  className="inline-block text-sm text-gray-900 hover:text-[#5273FF] font-medium"
                   href="#"
                 >
                   Articles
@@ -182,16 +183,16 @@ export default function Home() {
             <div className="hidden lg:block ml-auto">
               <div className="flex items-center">
                 <a
-                  className="inline-block mr-9 text-sm font-semibold text-orange-900 hover:text-gray-900"
+                  className="inline-block mr-9 text-sm font-semibold text-[#5273FF] hover:text-[#264ADC]"
                   href="#"
                 >
                   Sign In
                 </a>
                 <a
-                  className="relative group inline-block py-3 px-4 text-sm font-semibold text-orange-900 hover:text-white border border-gray-200 rounded-md overflow-hidden transition duration-300"
+                  className="relative group inline-block py-3 px-4 text-sm font-semibold text-[#5273FF] hover:text-white border border-gray-200 rounded-md overflow-hidden transition duration-300"
                   href="#"
                 >
-                  <div className="absolute top-0 right-full w-full h-full bg-orange-900 transform group-hover:translate-x-full group-hover:scale-102 transition duration-500"></div>
+                  <div className="absolute top-0 right-full w-full h-full bg-[#264ADC] transform group-hover:translate-x-full group-hover:scale-102 transition duration-500"></div>
                   <span className="relative">Create an account</span>
                 </a>
               </div>
@@ -226,16 +227,16 @@ export default function Home() {
             </div>
             <div className="max-w-md">
               <p className="md:text-xl text-gray-900 font-semibold">
-                Onveta is a startup that's making the world a better place!
-                We've been working on our mission since 2021
+                Onveta is a startup that&apos;s making the world a better place!
+                We&apos;ve been working on our mission since 2021
               </p>
             </div>
           </div>
           <a
-            className="relative group inline-block w-full sm:w-auto py-4 px-6 mb-24 text-white font-semibold rounded-md bg-orange-900 overflow-hidden"
+            className="relative group inline-block w-full sm:w-auto py-4 px-6 mb-24 text-white font-semibold rounded-md bg-[#264ADC] overflow-hidden"
             href="#"
           >
-            <div className="absolute top-0 right-full w-full h-full bg-gray-900 transform group-hover:translate-x-full group-hover:scale-102 transition duration-500"></div>
+            <div className="absolute top-0 right-full w-full h-full bg-[#2140bd] transform group-hover:translate-x-full group-hover:scale-102 transition duration-500"></div>
             <div className="relative flex items-center justify-center">
               <span className="mr-4">Meet The Expert</span>
               <span>
@@ -395,7 +396,7 @@ export default function Home() {
             </ul>
             <div className="py-8 px-6 mb-6 border-t border-b border-gray-200">
               <a
-                className="flex items-center text-sm font-semibold text-orange-900 hover:text-orange-600"
+                className="flex items-center text-sm font-semibold text-[#5273FF] hover:text-orange-600"
                 href="#"
               >
                 <svg
@@ -415,13 +416,13 @@ export default function Home() {
             </div>
             <div className="flex px-6 mb-16 items-center">
               <a
-                className="inline-block mr-9 text-sm font-semibold text-orange-900 hover:text-gray-900"
+                className="inline-block mr-9 text-sm font-semibold text-[#5273FF] hover:text-gray-900"
                 href="#"
               >
                 Sign In
               </a>
               <a
-                className="inline-block py-3 px-4 text-sm font-semibold text-orange-900 hover:text-white border border-gray-300 hover:border-orange-600 hover:bg-orange-900 rounded-md transition duration-200"
+                className="inline-block py-3 px-4 text-sm font-semibold text-[#5273FF] hover:text-white border border-[#264ADC] hover:border-orange-600 hover:bg-[#264ADC] rounded-md transition duration-200"
                 href="#"
               >
                 Create an account
