@@ -127,7 +127,7 @@ export default function Home() {
                         Sign In
                       </a>
                       <a
-                        className="inline-block py-3 px-4 text-sm font-semibold text-[#5273FF] hover:text-white border border-gray-200 hover:border-orange-600 hover:bg-[#264ADC] rounded-md transition duration-200"
+                        className="inline-block py-3 px-4 text-sm font-semibold text-[#5273FF] hover:text-white border border-gray-200  hover:bg-[#264ADC] rounded-md transition duration-200"
                         href="#"
                       >
                         Create an account
@@ -422,7 +422,7 @@ export default function Home() {
                 Sign In
               </a>
               <a
-                className="inline-block py-3 px-4 text-sm font-semibold text-[#5273FF] hover:text-white border border-[#264ADC] hover:border-orange-600 hover:bg-[#264ADC] rounded-md transition duration-200"
+                className="inline-block py-3 px-4 text-sm font-semibold text-[#5273FF] hover:text-white border border-[#264ADC] hover:bg-[#264ADC] rounded-md transition duration-200"
                 href="#"
               >
                 Create an account
