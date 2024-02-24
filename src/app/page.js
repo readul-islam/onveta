@@ -1,14 +1,15 @@
+import Logo from "../assets/logo.png"
 export default function Home() {
   return (
     <section className="relative pb-20 overflow-hidden">
       <img
         className="absolute top-0 right-0 w-52 md:w-auto"
-        src="saturn-assets/images/headers/star-background-header.png"
+        src="https://i.ibb.co/mz8qLrB/star-background-header.png"
         alt=""
       />
       <img
         className="absolute top-0 right-0 mt-10 mr-10"
-        src="saturn-assets/images/headers/light-orange-blue-1.png"
+        src="https://i.ibb.co/dg46tQd/light-orange-blue-1.png"
         alt=""
       />
       <img
@@ -22,7 +23,7 @@ export default function Home() {
             <a className="inline-block text-lg font-bold" href="#">
               <img
                 className="h-10"
-                src="saturn-assets/logos/logo-saturn-dark.svg"
+                src={Logo}
                 alt=""
                 width="auto"
               />
@@ -90,30 +91,30 @@ export default function Home() {
                         className="flex mb-2 items-center py-3 px-4 text-sm text-gray-900 hover:bg-orange-50 rounded-lg"
                         href="#"
                       >
-                        <img
+                        {/* <img
                           src="saturn-assets/images/headers/icon-download.svg"
                           alt=""
-                        />
+                        /> */}
                         <span className="ml-3">Download</span>
                       </a>
                       <a
                         className="flex mb-2 items-center py-3 px-4 text-sm text-gray-900 hover:bg-orange-50 rounded-lg"
                         href="#"
                       >
-                        <img
+                        {/* <img
                           src="saturn-assets/images/headers/icon-slack.svg"
                           alt=""
-                        />
+                        /> */}
                         <span className="ml-3">Community</span>
                       </a>
                       <a
                         className="flex mb-2 items-center py-3 px-4 text-sm text-gray-900 hover:bg-orange-50 rounded-lg"
                         href="#"
                       >
-                        <img
+                        {/* <img
                           src="saturn-assets/images/headers/icon-help.svg"
                           alt=""
-                        />
+                        /> */}
                         <span className="ml-3">Help</span>
                       </a>
                     </div>
@@ -133,10 +134,10 @@ export default function Home() {
                     </div>
                     <div className="flex items-center">
                       <div className="flex w-10 h-10 items-center justify-center bg-orange-50 rounded-full">
-                        <img
+                        {/* <img
                           src="saturn-assets/images/headers/icon-email-me.svg"
                           alt=""
-                        />
+                        /> */}
                       </div>
                       <div className="ml-3">
                         <span className="block text-xs text-gray-500">
